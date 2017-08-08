@@ -27,6 +27,13 @@
 			firmware = <&firmware>;
 			#power-domain-cells = <1>;
 		};
+
+		fb: fb {
+			compatible = "brcm,bcm2708-fb";
+			firmware = <&firmware>;
+			status = "disabled";
+		};
+
 	};
 };
 
